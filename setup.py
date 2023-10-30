@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 from config import email
 
 with open('README.md', encoding='utf-8') as f:
-    long_dcs2 = f.read()
+    long_dcs2 = f.read()#.replace('```py', '```').replace('# How', 'How')
 
-version = '0.0.1'
+version = '0.0.2'
 long_dcs = '''This module for create database with JSON'''
 
 setup(
@@ -12,7 +12,7 @@ setup(
     version=version,
     author='Hleb2702',
     author_email=email,
-
+    long_description_content_type="text/markdown",
     description=long_dcs,
     long_description=long_dcs2,
     url='https://github.com/hleb2702/json_db.git',
