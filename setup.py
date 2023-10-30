@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from config import email
 
 with open('README.md', encoding='utf-8') as f:
-    long_dcs2 = f.read()#.replace('```py', '```').replace('# How', 'How')
+    long_dcs2 = f.read()
 
 version = '0.0.2'
 long_dcs = '''This module for create database with JSON'''
