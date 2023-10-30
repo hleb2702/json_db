@@ -12,6 +12,7 @@ Create database (file), write:
 ```py
 db = json_db("name")
 
+
 ```
 get somebody from database
 ```py

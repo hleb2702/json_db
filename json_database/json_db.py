@@ -63,4 +63,4 @@ class json_db:
             raise JsonDBError('type variable "new_dict" must be "dict"')
         self.json[name] = new_dict
         return None
-    ф
+    
