@@ -8,7 +8,7 @@ version = '0.0.1'
 long_dcs = '''This module for create database with JSON'''
 
 setup(
-    name = 'json_db',
+    name = 'json_datebase',
     version=version,
     author='Hleb2702',
     author_email=email,

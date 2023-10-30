@@ -2,4 +2,4 @@ config.py
 json_db/__pycache__
 dist
 __pycache__
-json_db.egg-info
+json_datebase.egg-info
